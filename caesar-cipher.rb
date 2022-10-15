@@ -10,7 +10,7 @@ message_shift_reverse = message_shift * -1 # Get reverse of shift number
 
 def caesar_cipher(string, shift)
 
-  letters = %w[a b c d e f g h i j k l m n o p q r s t u v w x y z]
+  letters = ("a".."z").to_a
   split = string.split("")
   new_string = ""
 
