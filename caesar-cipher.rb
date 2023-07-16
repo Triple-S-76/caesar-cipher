@@ -31,7 +31,7 @@ def caesar_cipher(string, shift)
       new_string += letters[index]
     end
   end
-  p new_string
+  new_string
 end
 
 message_encrypted = caesar_cipher(message_to_encrypt, message_shift)
